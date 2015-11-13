@@ -1,1 +1,0 @@
-curl -X POST -H "Content-Type: application/json" https://sheetsu.com/apis/fe27a359 -d '{ "Id": "69", "Name": "Alice", "Score": "9999" }'
