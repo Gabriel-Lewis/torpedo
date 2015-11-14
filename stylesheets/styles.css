@@ -196,12 +196,13 @@ footer {
 .logo {
   font-family: "Lato";
   line-height:1.0;
-  
+  float:left;
 }
 .logo img {
-  float:left;
+  
   height:50px;
   width:50px;
 }
+
 
 
