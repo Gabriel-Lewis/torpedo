@@ -198,5 +198,10 @@ logo {
   line-height:1.0;
   
 }
+logo img {
+  float:left;
+  height:50px;
+  width:50px;
+}
 
 
