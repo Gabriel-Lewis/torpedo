@@ -196,8 +196,7 @@ footer {
 .logo {
   font-family: "Lato";
   
-  display:inline;
-  float:left;
+  display:inline-block;
 }
 .logo img {
   
