@@ -211,7 +211,7 @@ form##mc-embedded-subscribe-form {
     -webkit-appearance: none; }
     form#mc-embedded-subscribe-form input[type=email]:focus {
       border-color: #d2d4d6; }
-  form#mc-embedded-subscribe-form input[type=submit], form#mc-embedded-subscribe-form button {
+  input.button {
     border-radius: 6px;
     border-top-left-radius: 0;
     border-bottom-left-radius: 0;
