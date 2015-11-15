@@ -185,10 +185,10 @@ p {
   margin-bottom: 0;
   color: #8a93a5; }
 
-form##mc-embedded-subscribe-form {
+form#mc-embedded-subscribe-form {
   margin-top: 30px; }
-  form##mc-embedded-subscribe-form input[type=email],
-  form##mc-embedded-subscribe-form input[type=submit],
+  form#mc-embedded-subscribe-form input[type=email],
+  form#mc-embedded-subscribe-form input[type=submit],
   form#mc-embedded-subscribe-form button {
     -moz-transition: background-color 0.2s ease-in, border-color 0.2s ease-in;
     -o-transition: background-color 0.2s ease-in, border-color 0.2s ease-in;
