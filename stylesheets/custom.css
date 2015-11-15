@@ -189,7 +189,7 @@ form##mc-embedded-subscribe-form {
   margin-top: 30px; }
   form##mc-embedded-subscribe-form input[type=email],
   form##mc-embedded-subscribe-form input[type=submit],
-  form#subForm button {
+  form#mc-embedded-subscribe-form button {
     -moz-transition: background-color 0.2s ease-in, border-color 0.2s ease-in;
     -o-transition: background-color 0.2s ease-in, border-color 0.2s ease-in;
     -webkit-transition: background-color 0.2s ease-in, border-color 0.2s ease-in;
@@ -227,17 +227,17 @@ form##mc-embedded-subscribe-form {
     left: 345px;
     z-index: 999;
     margin-top: 0; }
-    form#mc-embedded-subscribe-form input[type=submit]:hover, form#subForm button:hover {
+    form#mc-embedded-subscribe-form input[type=submit]:hover, form#mc-embedded-subscribe-form button:hover {
       background-color: #1da5fb; }
-    form#mc-embedded-subscribe-form input[type=submit] ::-webkit-input-placeholder, form#subForm button ::-webkit-input-placeholder {
+    form#mc-embedded-subscribe-form input[type=submit] ::-webkit-input-placeholder, form#mc-embedded-subscribe-form button ::-webkit-input-placeholder {
       color: #bbc0cb; }
-    form#mc-embedded-subscribe-form input[type=submit] :-moz-placeholder, form#subForm button :-moz-placeholder {
+    form#mc-embedded-subscribe-form input[type=submit] :-moz-placeholder, form#mc-embedded-subscribe-form button :-moz-placeholder {
       /* Firefox 18- */
       color: #bbc0cb; }
-    form#mc-embedded-subscribe-form input[type=submit] ::-moz-placeholder, form#subForm button ::-moz-placeholder {
+    form#mc-embedded-subscribe-form input[type=submit] ::-moz-placeholder, form#mc-embedded-subscribe-form button ::-moz-placeholder {
       /* Firefox 19+ */
       color: #bbc0cb; }
-    form#mc-embedded-subscribe-form input[type=submit] :-ms-input-placeholder, form#subForm button :-ms-input-placeholder {
+    form#mc-embedded-subscribe-form input[type=submit] :-ms-input-placeholder, form#mc-embedded-subscribe-form button :-ms-input-placeholder {
       color: #bbc0cb; }
   form#mc-embedded-subscribe-form .error {
     color: #FF3E54;
