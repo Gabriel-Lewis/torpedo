@@ -369,7 +369,8 @@ form#subForm {
     border-bottom-left-radius: 6px;
     position: relative;
     left: 0;
-    margin-bottom: 15px; }
+    margin-bottom: 15px;
+    webkit-appearance: none;}
   form#subForm h4 {
     width: 80%;
     margin-left: auto;
