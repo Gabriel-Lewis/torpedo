@@ -353,7 +353,7 @@ form#subForm {
         line-height: 28px; }
       .content-container .content * {
         margin: 0 auto; }
-      .content-container .content .logo--billy {
+      .content-container .content .logo--torpedo {
         width: 150px;
         margin-bottom: 15px; }
 
@@ -366,8 +366,8 @@ form#subForm {
   form#subForm button{
     margin-top: 10px;
     width: 100%;
-    border-top-right-radius: 6px;
-    border-bottom-right-radius:6px;
+    border-top-left-radius: 6px;
+    border-bottom-left-radius:6px;
     position: relative;
     left: 0;
     margin-bottom: 15px;
@@ -438,5 +438,5 @@ form#subForm {
     height: 856px;
     margin-top: -860px; } }
 
-/*# sourceMappingURL=style.css.map */
+
 
