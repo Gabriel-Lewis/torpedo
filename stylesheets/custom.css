@@ -231,17 +231,20 @@ input.button {
       background-color: #1da5fb; }
 input.button {
       color: #bbc0cb; }
+      /*
 input.button {
-      /* Firefox 18- */
+      /* Firefox 18- 
       color: #bbc0cb; }
     form#mc-embedded-subscribe-form input[type=submit] ::-moz-placeholder, form#mc-embedded-subscribe-form button ::-moz-placeholder {
-      /* Firefox 19+ */
+      /* Firefox 19+ 
       color: #bbc0cb; }
     form#mc-embedded-subscribe-form input[type=submit] :-ms-input-placeholder, form#mc-embedded-subscribe-form button :-ms-input-placeholder {
       color: #bbc0cb; }
   form#mc-embedded-subscribe-form .error {
     color: #FF3E54;
     font-size: 16px; }
+    */
+    
 
 .footer {
   width: 1180px;
