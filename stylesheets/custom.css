@@ -219,7 +219,8 @@ form#subForm {
     position: absolute;
     left: 345px;
     z-index: 999;
-    margin-top: 0; }
+    margin-top: 0;
+    webkit-appearance: none;}
     form#subForm input[type=submit]:hover, form#subForm button:hover {
       background-color: #1da5fb; }
     form#subForm input[type=submit] ::-webkit-input-placeholder, form#subForm button ::-webkit-input-placeholder {
