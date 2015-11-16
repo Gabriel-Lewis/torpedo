@@ -50,7 +50,7 @@ html, body {
   text-align: right; }
 
 .app-preview,
-.app-screen {
+/*.app-screen*/ {
   position: absolute;
   z-index: 1;
   top: 0;
