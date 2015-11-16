@@ -446,7 +446,9 @@ form#subForm {
     width: 693px;
     height: 856px;
     margin-top: -860px; } }
+    
 #desktop{
+  display:block;
   float:right;
   
 }
