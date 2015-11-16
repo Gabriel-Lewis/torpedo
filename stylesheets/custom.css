@@ -64,7 +64,7 @@ html, body {
     .app-screen {
       /* on retina, use image that's scaled by 2 */ 
       background-image: url("https://cloud.githubusercontent.com/assets/7423532/11172420/31eac1fc-8bd5-11e5-9917-07f2542a9350.png");
-      background-size: 693px 856px; } }
+      background-size: 1742px 3566px; } }
   .app-preview.mobile,
   .app-screen.mobile {
     display: none; }
