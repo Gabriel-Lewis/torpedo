@@ -46,7 +46,21 @@
         	<figure class="preview-image animated fadeIn"></figure>
         	<figure class="preview-image-app animated fadeIn delayed"></figure>
         </div>
-        <secion></secion>
+        <script src="http://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+      <script src="assets/js/main.js"></script>
+      <script type="text/javascript">
+
+        $(document).ready(function(){
+
+          if($(window).width() >= 861) {
+            $('html,body').delay(0).animate({scrollTop: 0}, 1000);
+          } else {
+            var docHeight = $(document).height();
+            var scrollPos = docHeight / 3.5;
+            $('html,body').delay(600).animate({scrollTop: scrollPos}, 1000);
+          }
+        });
+      </script>
  <script>
   (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
   (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
