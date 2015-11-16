@@ -447,7 +447,7 @@ form#subForm {
     height: 856px;
     margin-top: -860px; } }
     
-#desktop{
+.desktop{
   display:block;
   float:right;
   
