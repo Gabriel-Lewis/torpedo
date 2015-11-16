@@ -113,7 +113,7 @@ html, body {
   overflow: visible;
   z-index: -1; }
   .content-image .preview-image {
-    background-size: 797px 984px;
+    background-size: 871px 1783px;
     width: 797px;
     height: 984px;
     background-image: url("https://cloud.githubusercontent.com/assets/7423532/11172416/2e56c784-8bd5-11e5-81e5-9e897eccc85a.png");
@@ -126,9 +126,9 @@ html, body {
         background-image: url("images/app-preview@2x.png");
         background-size: 797px 984px; } }
   .content-image .preview-image-app {
-    background-size: 797px 984px;
-    width: 797px;
-    height: 984px;
+    background-size: 871px 1783px;
+    width: 871px;
+    height: 1783px;
     background-image: url("https://cloud.githubusercontent.com/assets/7423532/11172420/31eac1fc-8bd5-11e5-9917-07f2542a9350.png");
     position: relative;
     margin-left: 580px;
