@@ -414,7 +414,7 @@ form#subForm {
   .app-preview,
   .app-screen {
     display: none; }
-  .mobile#desktop {
+  .mobile.desktop {
     display:none;
     
   }  
