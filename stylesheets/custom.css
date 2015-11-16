@@ -11,6 +11,13 @@
 
 .cf {
   *zoom: 1; }
+  
+.desktop{
+  display:block;
+  float:right;
+  
+}
+
 
 html, body {
   height: 100%;
@@ -447,10 +454,5 @@ form#subForm {
     height: 856px;
     margin-top: -860px; } }
     
-.desktop{
-  display:block;
-  float:right;
-  
-}
 
 
