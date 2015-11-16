@@ -414,6 +414,10 @@ form#subForm {
   .app-preview,
   .app-screen {
     display: none; }
+  .mobile#desktop {
+    display:none;
+    
+  }  
 
   .mobile.app-preview {
     margin-top: 0;
@@ -442,6 +446,9 @@ form#subForm {
     width: 693px;
     height: 856px;
     margin-top: -860px; } }
-
+#desktop{
+  float:left;
+  
+}
 
 
