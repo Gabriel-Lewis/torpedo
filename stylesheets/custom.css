@@ -455,6 +455,8 @@ form#subForm {
     margin-top: -860px; } }
 .confirmationpagelogo {
   text-align:center;
+  margin-top:10%;
+  
   
 }
 .confirmationpage {
@@ -464,6 +466,7 @@ form#subForm {
 
 .thankyoupage {
   text-align:center;
+  margin-top:10%;
   
   
 }
