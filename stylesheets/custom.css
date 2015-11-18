@@ -453,6 +453,12 @@ form#subForm {
     width: 693px;
     height: 856px;
     margin-top: -860px; } }
-    
-
-
+comfirmationpagelogo img, h1 {
+  text-align:center;
+  
+}
+thankyoupage img, h1 {
+  text-align:center;
+  
+}
+}
