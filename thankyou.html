@@ -67,7 +67,14 @@
 <script type="text/javascript" src="//s7.addthis.com/js/300/addthis_widget.js#pubid=ra-564ab7cd9580e403" async="async"></script>
     </head>
     <body>
-    	
+    	<div id="fb-root"></div>
+<script>(function(d, s, id) {
+  var js, fjs = d.getElementsByTagName(s)[0];
+  if (d.getElementById(id)) return;
+  js = d.createElement(s); js.id = id;
+  js.src = "//connect.facebook.net/en_US/sdk.js#xfbml=1&version=v2.5&appId=425908200933183";
+  fjs.parentNode.insertBefore(js, fjs);
+}(document, 'script', 'facebook-jssdk'));</script>
 
 
 
@@ -75,7 +82,9 @@
             <h1>Thank you!</h1>
             <p>We'll send you an email when we launch </p>
  	</div>
- 	<div class="addthis_sharing_toolbox"></div>
+ 	<div style="text-align:center">
+ 	<div class="fb-share-button" data-href="http://torpedoapp.co" data-layout="box_count"></div>
+ 	</div>
  	<div class="confirmationpagelogo">
             <img src="https://cloud.githubusercontent.com/assets/7423532/11171241/15f7ff58-8bb9-11e5-91c1-042d3108be39.png" class="logo--Torpedo">
             <h1>Torpedo</h1>
