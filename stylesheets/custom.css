@@ -494,6 +494,7 @@ share{
   height:100px;
   width:100px;
   padding:0,24,0,4;
+  display:inlineblock;
   
   
   border-radius: 6px;
