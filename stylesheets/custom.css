@@ -474,3 +474,6 @@ form#subForm {
   display:inline-block;
   text-align:center;
 }
+.btn {
+  display:inline-block;
+}
