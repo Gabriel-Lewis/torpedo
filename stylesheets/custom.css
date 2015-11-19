@@ -491,7 +491,7 @@ share{
   padding: 0px 4px 0px 24px;
   line-height: 18px;
   display: inline-block;
-  border-radius: 2px;
+  border-radius: 6px;
   margin: 20px;
   background-size: 18px;
   background-repeat: no-repeat;
@@ -510,27 +510,11 @@ share{
   background-image:url('https://cdn1.iconfinder.com/data/icons/metro-ui-dock/128/Facebook_alt_1.png');
 }
 
-.btnPr{
-  background-color: #CA2128;
-  background-image:url('https://cdn1.iconfinder.com/data/icons/wbits-pinterest/64/pinterest-icon-square-red.png');
-}
-
 .btnLi{
   background-color: #1783BC;
   background-image:url('https://cdn1.iconfinder.com/data/icons/social-icon-pack-by-citni/48/Linkedin.png');
 }
 
-.btnDl{
-  background-color: #2873CC;
-  background-image:url('https://cdn1.iconfinder.com/data/icons/freebie%3A-social-media-icons/64/delicious.png');
-}
-
-.btnBu{
-  background-color: #f4f4f4;
-  background-image:url('http://bufferapp.com/images/press/logo-icon.png');
-  background-size: 14px !important;
-  background-position: 2px center
-}
 
 .share a span.buCount{
   color: black;
