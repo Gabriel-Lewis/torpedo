@@ -473,6 +473,7 @@ form#subForm {
 .sharebuttonarea {
   display:inline-block;
   text-align:center;
+  width:100%;
 }
 .btn {
   text-align:center;
