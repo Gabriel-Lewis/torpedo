@@ -52,6 +52,41 @@ fbq('track', "PageView");
 src="https://www.facebook.com/tr?id=1668714150042434&ev=PageView&noscript=1"
 /></noscript>
 <!-- End Facebook Pixel Code -->
+<script>
+#YOUR URL + /
+url = "http://torpedoapp.co/"
+
+#TWITTER
+$.getJSON "http://urls.api.twitter.com/1/urls/count.json?url=#{url}&callback=?", (json) ->
+  setCount $(".twCount"), json.count
+
+#FACEBOOK
+$.getJSON "http://graph.facebook.com/#{url}", (json) ->
+  setCount $(".fbCount"), json.shares
+
+#LINKEDIN
+$.getJSON "http://www.linkedin.com/countserv/count/share?url=#{url}&callback=?", (json) ->
+  setCount $(".liCount"), json.count
+  
+
+  
+#COUNTER
+countUp = ($item) ->
+  setTimeout () ->
+    current = $item.attr("data-current-count") * 1
+    target = $item.attr("data-target-count") * 1
+    newCount = current + Math.ceil (target - current) / 2
+    $item.attr "data-current-count", newCount
+    $item.html newCount
+    countUp $item if newCount < target 
+  , 100
+  
+setCount = ($item, count = null) ->
+  $item.attr "data-target-count", count
+  $item.attr "data-current-count", 0
+  countUp $item
+
+</script>
 
 
     </head>
@@ -65,11 +100,13 @@ src="https://www.facebook.com/tr?id=1668714150042434&ev=PageView&noscript=1"
             <h1 style="display:block">Torpedo</h1>
         </div>
         <!-- 
-        <ul class="share-buttons">
-  <li><a href="https://www.facebook.com/sharer/sharer.php?u=http%3A%2F%2Ftorpedoapp.co&t=" title="Share on Facebook" target="_blank" onclick="window.open('https://www.facebook.com/sharer/sharer.php?u=' + encodeURIComponent(document.URL) + '&t=' + encodeURIComponent(document.URL)); return false;"><img src="images/social_flat_rounded_rects_svg/Facebook.svg"></a></li>
-  <li><a href="https://twitter.com/intent/tweet?source=http%3A%2F%2Ftorpedoapp.co&text=:%20http%3A%2F%2Ftorpedoapp.co&via=torpedo_app" target="_blank" title="Tweet" onclick="window.open('https://twitter.com/intent/tweet?text=' + encodeURIComponent(document.title) + ':%20'  + encodeURIComponent(document.URL)); return false;"><img src="images/social_flat_rounded_rects_svg/Twitter.svg"></a></li>
-</ul>
-        <script src="http://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+        <div class="share">
+  <a href="{url}" class="btnTw" title="Twitter"><span class="twCount">0</span></a>
+  <a href="{url}" class="btnFb" title="Facebook"><span class="fbCount">0</span></a>
+  <a href="{url}" class="btnLi" title="LinkedIn"><span class="liCount">0</span></a>
+  
+</div>
+        -->
       	
 -->
        
