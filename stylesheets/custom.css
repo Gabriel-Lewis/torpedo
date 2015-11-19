@@ -482,11 +482,11 @@ share{
 
 .share a span{
   font-weight: bold;
-  
+  vertical-align: middle;
   size:25px;
   color: white;
   text-align: center;
-  vertical-align: middle;
+  
   min-width: 24px;
 }
 
