@@ -476,7 +476,7 @@ form#subForm {
   width:100%;
 }
 .btn {
-  text-align:center;
+  vertical-align:center;
   display:inline-block;
   margin:1%;
 }
