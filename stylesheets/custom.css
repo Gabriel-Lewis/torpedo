@@ -483,7 +483,7 @@ share{
   display: block;
   size:25px;
   color: white;
-  text-align: center middle;
+  text-align: center, middle;
   
   min-width: 24px;
 }
