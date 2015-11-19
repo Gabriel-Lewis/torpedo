@@ -476,7 +476,7 @@ share{
   width: 100%;
   text-align: center;
   
-  vertical-align: middle;
+  
   margin-top: -29px;
 }
 
@@ -494,7 +494,8 @@ share{
   width:100px;
   text-decoration: none;
   padding: 0px 4px 0px 24px;
- 
+  text-align: center;
+  vertical-align: middle;
   display: inline-block;
   border-radius: 6px;
   margin: 20px;
