@@ -515,9 +515,7 @@ share{
   background-image:url('https://cdn1.iconfinder.com/data/icons/social-icon-pack-by-citni/48/Linkedin.png');
 }
 
-
-.share a span.buCount{
-  color: black;
+#inner {
+  margin:0 auto;
 }
-
 
