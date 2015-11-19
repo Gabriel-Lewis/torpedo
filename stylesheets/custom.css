@@ -481,6 +481,7 @@ share{
 .share a span{
   font-weight: bold;
   display: block;
+  size:25px;
   color: white;
   text-align: center;
   min-width: 24px;
@@ -491,7 +492,7 @@ share{
   width:100px;
   text-decoration: none;
   padding: 0px 4px 0px 24px;
- size:25px;
+ 
   display: inline-block;
   border-radius: 6px;
   margin: 20px;
