@@ -487,6 +487,8 @@ share{
 }
 
 .share a{
+  height:50px;
+  width:50px;
   text-decoration: none;
   padding: 0px 4px 0px 24px;
   line-height: 18px;
@@ -520,7 +522,7 @@ share{
     margin-left:5px;
     margin-right:5px;
     color:#FFF;
-    background-color:darkgray;
+    
 }
 
 
