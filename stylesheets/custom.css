@@ -470,14 +470,3 @@ form#subForm {
   
   
 }
-.sharebuttonarea {
-  display:inline-block;
-  text-align:center;
-  vertical-align:center;
-  width:100%;
-}
-.btn {
-  vertical-align:center;
-  display:inline-block;
-  margin:1%;
-}
