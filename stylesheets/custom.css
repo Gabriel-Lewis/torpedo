@@ -470,68 +470,7 @@ form#subForm {
   
   
 }
-share{
-  position: absolute;
-  top: 50%;
-  width: 100%;
-  text-align: center;
-  
-  
-  margin-top: -29px;
-}
-
-.share a span{
-  font-weight: bold;
-  vertical-align: middle;
-  size:25px;
-  color: white;
-  text-align: center;
-  
-  min-width: 24px;
-}
-
-.share a{
-  height:100px;
-  width:100px;
-  padding:0,24,0,4;
+.sharebuttonarea {
   display:inline-block;
-  
-  
-  border-radius: 6px;
-  
-  background-size: 25px;
-  background-repeat: no-repeat;
-  box-shadow: 0px 1px 0px rgba(0,0,0,0.1),inset 0px 1px 0px rgba(255,255,255,0.05)
-}
-
-/*icon credits: iconfinder.com*/
-.btnTw{
-  background-color: #2DAAE1;
-  background-image: url('https://cdn1.iconfinder.com/data/icons/somacro___dpi_social_media_icons_by_vervex-dfjq/128/twitter.png');
-}
-
-
-.btnFb{
-  background-color: #3B5998;
-  background-image:url('https://cdn1.iconfinder.com/data/icons/metro-ui-dock/128/Facebook_alt_1.png');
-}
-
-.btnLi{
-  background-color: #1783BC;
-  background-image:url('https://cdn1.iconfinder.com/data/icons/social-icon-pack-by-citni/48/Linkedin.png');
-}
-
-.inner div{
-    display:inline-block;
-    margin-left:5px;
-    margin-right:5px;
-    color:#FFF;
-    
-}
-
-
-.outer {
-  width:100%;
   text-align:center;
-  margin-top:2.5%;
 }
