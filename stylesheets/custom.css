@@ -515,14 +515,15 @@ share{
   background-image:url('https://cdn1.iconfinder.com/data/icons/social-icon-pack-by-citni/48/Linkedin.png');
 }
 
-.inner {
-  margin: auto;  
-  position: absolute;
-  left:0;
-  right: 0;
-  top: 0;
-  bottom: 0;
+.inner div{
+    display:inline-block;
+    margin-left:5px;
+    margin-right:5px;
+    color:#FFF;
+    background-color:darkgray;
 }
+
+
 .outer {
-  position: relative;
+  width:100%;
 }
